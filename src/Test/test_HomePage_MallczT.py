@@ -35,9 +35,9 @@ class Test(unittest.TestCase):
         print("starting index is of carousel is", index_caro)
         co = 0
         obj_id_list = []
-
+        carousel_count = 1
         for elements in Body:
-                carousel_count = 1
+                #carousel_count = 1
                 print("for carousel no", carousel_count)
                 carousel_count = carousel_count + 1
                 for obj in article:
